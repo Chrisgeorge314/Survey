@@ -3,55 +3,57 @@
 
 <head>
 
-<title>Survey Form</title>
+    <title>Survey Form</title>
 
-<link rel="stylesheet"
-href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="container">
+    <!-- Toaster Message -->
+    <div id="toast"></div>
 
-<h2>Survey Form</h2>
+    <div class="container">
 
-<form id="surveyForm">
+        <h2>Survey Form</h2>
 
-<input
-type="text"
-id="name"
-placeholder="Enter Name"
-required>
+        <form id="surveyForm">
 
-<input
-type="email"
-id="email"
-placeholder="Enter Email"
-required>
+            <input
+            type="text"
+            id="name"
+            placeholder="Enter Name"
+            required>
 
-<input
-type="tel"
-id="phone"
-placeholder="Enter Phone Number"
-required>
+            <input
+            type="email"
+            id="email"
+            placeholder="Enter Email"
+            required>
 
-<textarea
-id="message"
-placeholder="Enter Message">
-</textarea>
+            <input
+            type="text"
+            id="phone"
+            placeholder="Enter Phone Number"
+            required>
 
-<button type="submit">
-Submit
-</button>
+            <textarea
+            id="message"
+            placeholder="Enter Message">
+            </textarea>
 
-</form>
+            <button type="submit">
+                Submit
+            </button>
 
-<h3>Submitted Details</h3>
+        </form>
 
-<ul id="list"></ul>
+        <h3>Submitted Details</h3>
 
-</div>
+        <ul id="list"></ul>
+
+    </div>
 
 <script src="script.js"></script>
 
